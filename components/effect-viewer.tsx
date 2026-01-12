@@ -182,7 +182,7 @@ export function EffectViewer({ params }: EffectViewerProps) {
     // 创建球体 mesh
     const sphere = MeshBuilder.CreateSphere(
       "sphere",
-      { diameter: 2, segments: 64 },
+      { diameter: 2, segments: 32 },
       scene
     );
 
